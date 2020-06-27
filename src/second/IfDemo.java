@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /**
  * @Describe 分支结构
+ * (Mac IDEA 快捷键：Surround With Code，Command + Option + T 包围代码(使用if,else,try,catch的等))
+ * (Mac IDEA 快捷键：先new Scanner,Command + Option + V,快速抽取变量)
  */
 public class IfDemo {
 

@@ -25,8 +25,9 @@
     - JDK (Java Development Kit),Java工具包，包括了JRE、java工具、java核心类库（Java API）
     - JRE (Java Runtime Environment),Java运行环境
     - 安装（省略，百度吧，注意配置好环境变量，java -version一下）
-### 第一章 Java初识 first包
-    - 第一个java程序 HelloWorld
+## 第一章 Java初识 first包
+    - 第一个java程序 HelloWorld(Mac IDEA 快捷键：psvm,快速打出main函数)
+                                (Mac IDEA 快捷键：sout,快速System.out.println)
         1.注释分三类：单行注释、多行注释、文档注释。(Java编译器编译时会跳过注释语句。)            
         2.java文件：
             java文件的名称必须跟public class的名称保持一致；
@@ -83,13 +84,45 @@
         5.逻辑运算符:  &&，||，!
         6.位运算符:  &，|，^，~ ， >>，<<，>>> 
         7.条件运算符 ？： 
-### 第二章 流程控制 second包
-    - 分支结构 IfDemo：(Mac IDEA 快捷键：Surround With Code，Command + Option + T 包围代码(使用if,else,try,catch的等))
-        1.单分支结构：只做单一条件的判断，如果符合，做某些事情
-        2.双分支结构：当做条件判断的时候，只有两种选择
-        3.多分支结构：可以进行多个条件的判断，每个匹配项可以选择不同的执行结果
-        4.嵌套分支结构：在分支结构中嵌套分支结构
-        5.switch多分支结构：一般用作等值判断
+## 第二章 流程控制 second包
+###分支结构 IfDemo：
+    (Mac IDEA 快捷键：Surround With Code，Command + Option + T 包围代码(使用if,else,try,catch的等))
+    1.单分支结构：只做单一条件的判断，如果符合，做某些事情
+    2.双分支结构：当做条件判断的时候，只有两种选择
+    3.多分支结构：可以进行多个条件的判断，每个匹配项可以选择不同的执行结果
+    4.嵌套分支结构：在分支结构中嵌套分支结构
+    5.switch多分支结构：一般用作等值判断
+###循环结构
+    1.WhileDemo -- 练习while do-while循环
+        (Mac IDEA 快捷键：iten,Enumeration while 循环 while (enumeration.hasMoreElements()) {
+                                    Object nextElement =  enumeration.nextElement();
+                                })
+        (Mac IDEA 快捷键：itit,Iterator while 循环 while (iterator.hasNext()) {
+                                         Object next =  iterator.next();
+                                     })
+    2.ForDemo -- 练习for循环
+        (Mac IDEA 快捷键：fori,快速for循环)
+        (Mac IDEA 快捷键：iter,增强型for循环, for (String arg : args) {
+                            })
+        (Mac IDEA 快捷键：itar,数组for循环 for (int i = 0; i < args.length; i++) {
+                               String arg = args[i];
+                            })
+        (Mac IDEA 快捷键： itco :集合for迭代循环 for (Iterator iterator = collection.iterator(); iterator.hasNext(); ) {
+                                        Object next =  iterator.next();
+                           })
+        (Mac IDEA 快捷键：itli : List 循环 for (int i = 0; i < list.size(); i++) {
+                                        Object o =  list.get(i);
+                                        })
+        (Mac IDEA 快捷键：ittok : tokens 循环  for (StringTokenizer stringTokenizer = new StringTokenizer(); stringTokenizer.hasMoreTokens(); ) {
+                                            String s = stringTokenizer.nextToken();
+                                        })
+        (Mac IDEA 快捷键：foreach :each 普通循环 for (:) {
+                                         })
+    3.AgeRate -- Scanner对象练习for循环，年龄比率(Mac IDEA 快捷键：先new Scanner,Command + Option + V,快速抽取变量)
+    4.ContinueDemo -- continue:跳出本次循环
+    5.BreakDemo -- break:跳出本层循环,当包含多层循环的时候，break只能跳出内层循环，无法跳出外层循环
+    6.ReturnDemo -- return有两基本用途:1、返回方法的返回值;2、终止当前程序
+    
                     
         
     
